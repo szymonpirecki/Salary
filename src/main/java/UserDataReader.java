@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class UserDataReader {
 
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static Employee getEmployeeDetailsFromUser() {
         Employee employee = new Employee();
